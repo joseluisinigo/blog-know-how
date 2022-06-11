@@ -1,0 +1,12 @@
+This error has happened to me several times over the years.
+The problem:
+When I enter linux, in my case kali linux windows appear either at the top left or at the bottom right. I can't move these windows.
+When I open the menu it won't let me write inside the menu either.
+
+The solution:
+1st Clear the user cache
+
+```
+rm -Rv ~/.cache/sessions/
+```
+2º Create a new user
